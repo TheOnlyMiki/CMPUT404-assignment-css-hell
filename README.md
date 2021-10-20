@@ -26,6 +26,7 @@ Code is licensed under the Apache 2.0 license.
 
 Part 1 - Changes of HTML
 ====================
+  * Copy the <code>\<style\></code> from 2.html to theme.css
   * Delete <code>\<style\></code> from all html, and add <code>\<link rel="stylesheet" href="theme.css"\></code> to all html
   * Add <code>\<link rel="coverpage" href="./image/cover.jpg"\></code> to 1.html
   * Delete <code>\<link rel="schema.dc"\> \<link rel="schema.dcterms"\> \<link rel="dcterms.isFormatOf"\></code> from all html
@@ -33,6 +34,7 @@ Part 1 - Changes of HTML
   * Delete web URL <code>\<a href=\"https:\/\/www.gutenberg.org\/\"\></code> from all html
   * Modify all the href from <code>\<a\></code>, delete the web URL and remain the id of component. E.g. <code><a href="web URL#id"\></code> to <code>\<a href="#id"\></code>
   * Modify all the src from <code>\<img\></code>, change the name of origin finder to image floder
+  * Add <code>background: #faebd0;</code> into body of theme.css
   
 Reference list
 ====================
