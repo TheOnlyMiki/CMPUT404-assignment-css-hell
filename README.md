@@ -39,3 +39,4 @@ Part 1 - Changes of HTML
 Reference list
 ====================
   * How to write README.md - https://www.appinn.com/markdown/
+  * CSS change the img position - https://segmentfault.com/a/1190000018279674
