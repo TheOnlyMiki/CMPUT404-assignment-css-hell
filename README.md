@@ -57,13 +57,15 @@ Part 1 - Changes of HTML
   * Add below <code>\<img\></code> component to theme.css
  ```css
  img {
-	border: 3px solid #000000;
+	border: 5px solid #000000;
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
  ```
+  * Add <code>font-weight: bold;</code> to <code>\<h2\></code> component in theme.css
+  * Add <code>font-family: "Times New Roman";</code> to <code>\<p\></code> component in theme.css
   
 Reference list
 ====================
