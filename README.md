@@ -34,7 +34,9 @@ Part 1 - Changes of HTML
   * Delete web URL <code>\<a href=\"https:\/\/www.gutenberg.org\/\"\></code> from all html
   * Modify all the href from <code>\<a\></code>, delete the web URL and remain the id of component. E.g. <code><a href="web URL#id"\></code> to <code>\<a href="#id"\></code>
   * Modify all the src from <code>\<img\></code>, change the name of origin finder to image floder
-  * Add <code>background: #f3ce8b;</code> into body of theme.css
+  * Add <code>background: #f3ce8b; font-family: Serif;</code> into body of theme.css
+  * Add <code>class="contents"</code> to all the contents table from all html
+  * Add <code></code>
   
 Reference list
 ====================
