@@ -23,3 +23,4 @@ Code is licensed under the Apache 2.0 license.
 
 Part 1 - Changes of HTML
 ====================
+* Delete <style> from the html, and add <link rel="stylesheet" href="style.css" /> to the html.
