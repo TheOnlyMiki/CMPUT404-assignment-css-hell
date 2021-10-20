@@ -46,7 +46,14 @@ Part 1 - Changes of HTML
   * Modify all the href from <code>\<a\></code>, delete the web URL and remain the id of component. E.g. <code><a href="web URL#id"\></code> to <code>\<a href="#id"\></code>
   * Modify all the src from <code>\<img\></code>, change the name of origin finder to image floder
   * Add <code>background: #f3ce8b; font-family: Serif;</code> into body of theme.css
-  * Add <code>class="contents"</code> to all the contents table from all html
+  * Modify <code>class="contents"</code> to all the table of contents from all html, then add the below <code>\<table class="contents"\></code> component to theme.css
+ ```css
+ table.contents {
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+ ```
   * Add below <code>\<img\></code> component to theme.css
  ```css
  img {
