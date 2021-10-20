@@ -30,7 +30,7 @@ Part 1 - Changes of HTML
   * Add <code>\<link rel="coverpage" href="./image/cover.jpg"\></code> to 1.html
   * Delete <code>\<link rel="schema.dc"\> \<link rel="schema.dcterms"\> \<link rel="dcterms.isFormatOf"\></code> from all html
   * Delete <code>\<meta name="dcterms.source"\> \<meta property="og:url"\> \<meta property="og:image"\> \<meta name="generator"\></code> from all html
-  * Delete <code>\<a href="https://www.gutenberg.org/"\></code> from all html
+  * Delete <code>\<a href=\"https:\/\/www.gutenberg.org\/\"\></code> from all html
   * Delete all the URL from the chapter. E.g. <code><a href="URL#chap01"\></code> to <code>\<a href="#chap01"\></code>
   
 Reference list
