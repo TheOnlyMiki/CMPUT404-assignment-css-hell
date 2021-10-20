@@ -214,3 +214,7 @@ img {
 	margin-right: auto;
 	display: block;
 }
+
+p.asterism {
+	text-align: center;
+}
