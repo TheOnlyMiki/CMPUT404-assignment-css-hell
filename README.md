@@ -31,7 +31,7 @@ Part 1 - Changes of HTML
   * Delete <code>\<link rel="schema.dc"\> \<link rel="schema.dcterms"\> \<link rel="dcterms.isFormatOf"\></code> from all html
   * Delete <code>\<meta name="dcterms.source"\> \<meta property="og:url"\> \<meta property="og:image"\> \<meta name="generator"\></code> from all html
   * Delete web URL <code>\<a href=\"https:\/\/www.gutenberg.org\/\"\></code> from all html
-  * Delete all the web URL from the href, and remain the id of component. E.g. <code><a href="web URL#chap01"\></code> to <code>\<a href="#chap01"\></code>
+  * Delete all the web URL from the href, and remain the id of component. E.g. <code><a href="web URL#id"\></code> to <code>\<a href="#id"\></code>
   
 Reference list
 ====================
