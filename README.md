@@ -26,7 +26,10 @@ Code is licensed under the Apache 2.0 license.
 
 Part 1 - Changes of HTML
 ====================
-  * Delete <code><style></code> from the html, and add <code><link rel="stylesheet" href="theme.css" \/\></code> to the html.
+  * Delete <code>\<style\></code> from all html, and add <code>\<link rel="stylesheet" href="theme.css"\></code> to all html.
+  * Add <code>\<link rel="coverpage" href="./image/cover.jpg"\></code> to 1.html
+  * Delete <code>\<link rel="schema.dc"\> \<link rel="schema.dcterms"\> \<link rel="dcterms.isFormatOf"\></code> from all html
+  * Delete <code>\<meta name="dcterms.source"\> </code> from all html
   
 Reference list
 ====================
