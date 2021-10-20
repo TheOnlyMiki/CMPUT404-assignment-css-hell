@@ -31,7 +31,8 @@ Part 1 - Changes of HTML
   * Delete <code>\<link rel="schema.dc"\> \<link rel="schema.dcterms"\> \<link rel="dcterms.isFormatOf"\></code> from all html
   * Delete <code>\<meta name="dcterms.source"\> \<meta property="og:url"\> \<meta property="og:image"\> \<meta name="generator"\></code> from all html
   * Delete web URL <code>\<a href=\"https:\/\/www.gutenberg.org\/\"\></code> from all html
-  * Delete all the web URL from the href, and remain the id of component. E.g. <code><a href="web URL#id"\></code> to <code>\<a href="#id"\></code>
+  * Modify all the href from <code>\<a\></code>, delete the web URL and remain the id of component. E.g. <code><a href="web URL#id"\></code> to <code>\<a href="#id"\></code>
+  * Modify all the src from <code>\<img\></code>, change the name of origin finder to image floder
   
 Reference list
 ====================
