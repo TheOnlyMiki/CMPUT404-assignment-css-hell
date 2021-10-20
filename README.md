@@ -66,6 +66,12 @@ Part 1 - Changes of HTML
  ```
   * Add <code>font-weight: bold;</code> to <code>\<h2\></code> component in theme.css
   * Add <code>font-family: "Times New Roman";</code> to <code>\<p\></code> component in theme.css
+  * Add below <code>\<p class="asterism"\></code> component to theme.css
+ ```css
+ p.asterism {
+	text-align: center;
+}
+ ```
   
 Reference list
 ====================
