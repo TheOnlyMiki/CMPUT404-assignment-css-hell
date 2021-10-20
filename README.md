@@ -30,13 +30,13 @@ Part 1 - Changes of HTML
   * Delete <code>\<style\></code> from all html, and add <code>\<link rel="stylesheet" href="theme.css"\></code> to all html
   * Add <code>\<link rel="coverpage" href="./image/cover.jpg"\></code> to 1.html
   * Delete below <code>\<link\></code> component from all html
- ```
+ ```html
  <link rel="schema.dc"> 
  <link rel="schema.dcterms"> 
  <link rel="dcterms.isFormatOf">
  ``` 
   * Delete below <code>\<meta\></code> component from all html 
- ```
+ ```html
  <meta name="dcterms.source"> 
  <meta property="og:url"> 
  <meta property="og:image"> 
@@ -48,7 +48,7 @@ Part 1 - Changes of HTML
   * Add <code>background: #f3ce8b; font-family: Serif;</code> into body of theme.css
   * Add <code>class="contents"</code> to all the contents table from all html
   * Add below <code>\<img\></code> component to theme.css
- ```
+ ```css
  img {
 	border: 3px solid #000000;
 	width: 60%;
