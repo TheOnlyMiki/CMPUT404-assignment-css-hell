@@ -24,3 +24,7 @@ Code is licensed under the Apache 2.0 license.
 Part 1 - Changes of HTML
 ====================
 * Delete <code><style></code> from the html, and add <code><link rel="stylesheet" href="theme.css" \/\></code> to the html.
+  
+Reference list
+====================
+* How to write README.md - https://www.appinn.com/markdown/
