@@ -27,7 +27,7 @@ Code is licensed under the Apache 2.0 license.
 Part 1 - Changes of HTML
 ====================
   * Copy the <code>\<style\></code> from 2.html to theme.css
-  * Delete <code>\<style\></code> from all html, and add <code>\<link rel="stylesheet" href="theme.css"\></code> to all html
+  * Delete <code>\<style\></code> from all html, and add <code>\<link rel="stylesheet" href="./css/theme.css"\></code> to all html
   * Add <code>\<link rel="coverpage" href="./image/cover.jpg"\></code> to 1.html
   * Delete below <code>\<link\></code> component from all html
  ```html
