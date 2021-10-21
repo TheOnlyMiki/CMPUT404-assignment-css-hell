@@ -80,3 +80,4 @@ Reference list
   * CSS change the img position - https://segmentfault.com/a/1190000018279674
   * CSS make a circle image - https://blog.csdn.net/s1674521/article/details/79731141
   * CSS background image - https://www.w3schools.com/cssref/pr_background-image.asp
+  * CSS shadow effect - https://www.webhek.com/post/css-box-shadow-property.html
