@@ -5,38 +5,81 @@
 		<meta charset="utf-8">
 		<meta name="description" content="JingZeng Xie personal introduction website">
 		<meta name="author" content="JingZeng Xie">
-		<link rel="stylesheet" href="css/good.css" type="text/css" />
+		<link rel="stylesheet" href="./css/ugly.css" type="text/css" />
 	</head>
 	<body>
-	
-		<ul id="menu">
-			<li><a class="active" href="index.html">Home</a></li>
-			<li><a class="menus" href="page/AboutMe.html">About Me</a></li>
-			<li><a class="menus" href="page/Resume.html">Resume</a></li>
-			<li><a class="menus" href="page/Gallery.html">Gallery</a></li>
-		</ul>
+		<div class="header">
+			<h1>JingZeng Xie Website</h1>
+			<hr class="header">
+			<ul id="menu">
+				<li><a href="#intro">Intro</a></li>
+				<li><a href="#history">History</a></li>
+				<li><a href="#skill">Skill</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+			<hr class="header">
+		</div>
 		
-		<div id="window" style="text-align:center;">
-			<h1 style="color:#008000;">Welcome to my page</h1>
+		<div class="main_window">
+			<section id="intro">
+				<img alt="My onecard's picture" src="./image/onecard_picture.jpg" id="intro_pic">
+				<h2>Intro</h2>
+				<hr class="paragraph">
+				<p>
+				I am a fourth-year student at University of Alberta, and currently 
+				doing a Bachelor of Computer Science, Honors degrees. In the future, 
+				I am planning to enter the graduate school and continue to learning 
+				more knowledges of modern Computer Science.
+				</p>
+			</section>
 			
-			<p><mark>This is the home page, my name is <b>JingZeng Xie</b></mark>.</p>
+			<section id="history">
+				<img alt="Fun image of professional history" src="./image/history.jpg" id="history_pic">
+				<h2>Professional History</h2>
+				<hr class="paragraph">
+				<p>
+					<ol>
+						<li><b>2014 - 2017</b>, <a href="https://hwh.hrce.ca/">Halifax West High School, Halifax, NS, Canada</a></li>
+						<li><b>2017 - 2019</b>, <a href="https://www2.acadiau.ca/home.html">Acadia University, Wolfville, NS, Canada</a></li>
+						<li><b>2019 - present</b>, <a href="https://www.ualberta.ca/index.html">University of Alberta, Edmonton, AB, Canada</a></li>
+					</ol>
+				</p>
+			</section>
 			
-			<a target="_blank" href="image/background.png">
-				<img alt="Gintama's background" src="image/background.png" width="860" height="436">
-			</a>
-			
-			<p>Picture from anime - 
-				<a target="_blank" href="https://en.wikipedia.org/wiki/Gin_Tama">Gintama</a>
+			<section id="skill">
+				<img alt="Fun image of skill" src="./image/skill.jpg" id="skill_pic">
+				<h2>Skills</h2>
+				<hr class="paragraph">
+				<p>
+					<ul>
+						<li>Python</li>
+						<li>Java</li>
+						<li>C and C++</li>
+						<li>OpenGL</li>
+						<li>Android Studio</li>
+						<li>TensorFlow</li>
+						<li>OS - Computer Operating System</li>
+						<li>ROS - Robot Operating System</li>
+					</ul>
+				</p>
+			</section>
+		</div>
+		
+		<hr class="header" id="last_hr">
+		
+		<div id="about">
+			<h2>About Me</h2>
+			<p>
+				<b>Hobbies</b>
+				 - Cooking, Online video game and Novel
 				<br>
-				<i>Click the picture can view origin picture.</i>
+				<b>Interested</b>
+				 - Robot Operating System, Software development, Artificial Intelligence, Machine Learning and Algorithm and application
 			</p>
 		</div>
 		
-		<div id="foot">
-			&copy; 
-			<a href="mailto:145340x@acadiau.ca">JingZeng Xie</a>
-			<br>
-			<p>Acadia University, Wolfville, NS, CA</p>
+		<div class="footer">
+			<p>Contact information - &copy; <a href="mailto:jingzeng@ualberta.ca">JingZeng Xie</a> - University of Alberta, Edmonton, AB, Canada</p>
 		</div>
 		
 	</body>
